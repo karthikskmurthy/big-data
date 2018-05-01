@@ -21,4 +21,4 @@ filter1 = filter trip_data by VendorID == 2 AND passenger_count == 1 AND  tpep_p
 single_row = limit filter1 1;
           
 
-STORE single_row INTO '/user/root/pig_assignment/output1/single_row'; 
+STORE single_row INTO '/user/root/pig_assignment/output1/single'; 
