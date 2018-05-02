@@ -25,4 +25,4 @@ filter_data = filter count_groupd by payment_count>0;
 
 order_data = order filter_data by payment_count asc;
           
-STORE order_data INTO '/user/root/pig_assignment/output1/groop_by';
+STORE order_data INTO '/user/root/pig_assignment/output/group_by';

@@ -16,6 +16,6 @@ trip_data = LOAD '/user/root/spark_assignment/input_data/yellow_tripdata_*' USIN
 	     tolls_amount:double,
 	     improvement_surcharge:double,
 	     total_amount:double);
-filter1 = filter trip_data by RatecodeID == 4;
+filter = filter trip_data by RatecodeID == 4;
           
-STORE filter1 INTO '/user/root/pig_assignment/output/filter';
+STORE filter INTO '/user/root/pig_assignment/output/filter';
